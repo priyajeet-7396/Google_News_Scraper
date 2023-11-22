@@ -1,6 +1,6 @@
 # Google News Scraper
 
-This Python script allows you to scrape and download Google News search results related to "pavagada solar park" as PDF files.
+This Python script allows you to scrape and download Google News search results related to any topic given  as PDF files.
 
 ## Prerequisites
 
@@ -20,8 +20,10 @@ This Python script allows you to scrape and download Google News search results 
 2. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install google
+    pip install pdfkit
     ```
+    For PDF conversion, you'll need wkhtmltopdf
 
 ## Usage
 
